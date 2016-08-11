@@ -1,10 +1,23 @@
-# ![图标](http://120.25.221.172/img/favicon.png)万年历 Calender
+# ![图标](https://raw.githubusercontent.com/mircode/calender/master/doc/html/img/favicon.png)万年历 Calender
 
 ------
 
 ## 一、摘要
-[TOC]
 
+- [万年历 Calender](#万年历-calender)
+  - [一、摘要](#一摘要)
+  - [二、简介](#二简介)
+  - [三、开发流程](#三开发流程)
+  - [四、主要模块](#四主要模块)
+  - [五、目录结构](#五目录结构)
+  - [六、接口文档](#六接口文档)
+    - [1. Calendar类](#1-calendar类)
+    - [2. Dom类](#2-dom类)
+  - [七、调试日历](#七调试日历)
+  - [八、移动适配](#八移动适配)
+  - [九、后续开发](#九后续开发)
+  - [十、总结](#十总结)
+  
 ------
 
 ## 二、简介
@@ -12,7 +25,7 @@
 本款万年历实现了农历，公历，天干地支，24节气，国内国际假日，每日宜忌（08年~20年），节假日（14年~16年）的查询。
 万年历界面采用百度日历UI界面，核心JS代码手动编写，没有依赖函数库。代码采用模块式开发，gulp构建，HBuilder开发。***另用node-webkit打包了一版桌面应用，方便使用。***
 
-![预览](http://120.25.221.172/img/main.gif)
+![预览](https://raw.githubusercontent.com/mircode/calender/master/doc/html/img/main.gif)
 
 ## 三、开发流程
 
@@ -31,19 +44,19 @@
 
 ## 五、目录结构
 
-![目录结构](http://120.25.221.172/img/construct.png)
+![目录结构](https://raw.githubusercontent.com/mircode/calender/master/doc/html/img/construct.png)
 
 ## 六、接口文档
 
 日历主要有两个全局变量window.Calendar和window.DOM，Calender类主要实现了日历相关的功能，DOM类实现了主要的jQuery函数。
 
 ### 1. Calendar类
-![目录结构](http://120.25.221.172/img/calendar_api.png)
+![目录结构](https://raw.githubusercontent.com/mircode/calender/master/doc/html/img/calendar_api.png)
 
 ### 2. Dom类
-![目录结构](http://120.25.221.172/img/dom_api.png)
+![目录结构](https://raw.githubusercontent.com/mircode/calender/master/doc/html/img/dom_api.png)
 ## 七、调试日历
-![目录结构](http://120.25.221.172/img/console_show.png)
+![目录结构](https://raw.githubusercontent.com/mircode/calender/master/doc/html/img/console_show.png)
 ## 八、移动适配
 ```css
 /* 小屏幕（平板，大于等于 768px） */
@@ -57,7 +70,7 @@
 	}
 }
 ```
-![目录结构](http://120.25.221.172/img/app.gif)
+![目录结构](https://raw.githubusercontent.com/mircode/calender/master/doc/html/img/app.gif)
 
 ## 九、后续开发
 - [ ] 模块之间通过require加载。
@@ -74,8 +87,8 @@
 
 
 
-作者 尹行欣    
-邮箱 524907699@qq.com
+作者 魏国兴    
+邮箱 1607646162@qq.com
 2016 年 04月 13日    
 
 
